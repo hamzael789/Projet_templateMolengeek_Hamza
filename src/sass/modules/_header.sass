@@ -10,7 +10,7 @@
         height: 100%
 
         .div_header
-            padding-top: 13.8em //padding pour le placer comme dans l'exo
+            padding-top: 13.5em //padding pour le placer comme dans l'exo
             padding-left: 19.5em
             font-weight: bolder
             
@@ -31,3 +31,28 @@
                 font-weight: bold //gras
                 padding: 0.5em 1em 0.5em 1em //padding sur les 4 cotés
             
+
+
+
+
+// Le responsive tablette du header 
+@media screen and (min-width:600px) and (max-width:1023px) 
+  
+  .div_header
+    padding-bottom: 2em  // padding pour le placer comme dans l'exo
+    font-weight: bolder
+
+    h1
+      font-size: 0.5em
+
+    p
+      font-weight: normal
+
+    .btn_header
+      background-color: #106EEA  // Couleur de fond
+      color: white  // Couleur de la police
+      border: none  // Enlever les bordures
+      border-radius: 2px  // Arrondir les coins
+      font-size: 0.5em  // Taille de la police
+      font-weight: bold  // Gras
+      padding: 0.5em 0.5em  // Padding sur les 4 côtés
