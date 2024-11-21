@@ -36,25 +36,23 @@
   padding: 0.5em 1em 0.5em 1em;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1023px) {
-  .div_header {
-    padding-bottom: 2em;
+@media (max-width: 768px) {
+  .section_header {
+    height: 20em;
+  }
+  .section_header .background_opacity .div_header {
+    padding-top: 8em;
+    padding-left: 8em;
     font-weight: bolder;
   }
-  .div_header h1, .div_header .h1 {
-    font-size: 0.5em;
+  .section_header .background_opacity .div_header h1, .section_header .background_opacity .div_header .h1 {
+    font-size: 1.3em;
   }
-  .div_header p {
+  .section_header .background_opacity .div_header p {
     font-weight: normal;
   }
-  .div_header .btn_header {
-    background-color: #106EEA;
-    color: white;
-    border: none;
-    border-radius: 2px;
+  .section_header .background_opacity .div_header .btn_header {
     font-size: 0.5em;
-    font-weight: bold;
-    padding: 0.5em 0.5em;
   }
 }
 .section_haut_body .div_haut_body {
@@ -178,9 +176,11 @@
 }
 
 .maps {
-  margin-left: 7em;
+  justify-content: center;
   margin-bottom: 3em;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 3em;
 }
 .maps .formulaire {
@@ -194,7 +194,7 @@
 .div_copy {
   display: flex;
   background-color: #F1F6FE;
-  gap: 47rem;
+  justify-content: space-evenly;
   justify-content: center;
   height: 5em;
   margin-right: 1em;
