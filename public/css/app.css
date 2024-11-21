@@ -75,7 +75,7 @@
   border: none;
 }
 .section_haut_body .div_4cartes div i {
-  font-size: 2em;
+  font-size: 1.5em;
   padding-top: 0.5em;
   padding-bottom: 0.3em;
   color: #106EEA;
@@ -164,8 +164,8 @@
 .div_3cartes_haut div i {
   color: #106EEA;
   border: 2px dotted #106EEA;
-  border-radius: 50%;
-  padding: 0.3em;
+  border-radius: 100%;
+  padding: 0.5em;
   margin: 0.5em;
   font-size: 1.5em;
 }
