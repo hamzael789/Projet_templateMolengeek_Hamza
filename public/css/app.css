@@ -197,6 +197,19 @@
     margin-bottom: 0.3em;
   }
 }
+@media (max-width: 376px) {
+  .div_titre_service {
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+  }
+  .div_titre_service p {
+    font-size: 0.6em;
+  }
+  .div_6cartes {
+    gap: 0.5rem;
+  }
+}
 .section_team {
   background-color: #F6F9FE;
   padding-bottom: 5em;
