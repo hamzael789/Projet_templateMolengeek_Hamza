@@ -6,11 +6,11 @@
   font-size: 0.8em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 376px) {
   .titres_nav {
     padding-left: 5em;
     display: flex;
-    gap: 2em;
+    gap: 1em;
     font-size: 0.7em;
   }
 }
