@@ -140,6 +140,14 @@
   padding-bottom: 1em;
 }
 
+@media (max-width: 376px) {
+  .section_haut_body .div_haut_body {
+    text-align: center;
+  }
+  .section_haut_body .div_4cartes {
+    gap: 1em;
+  }
+}
 .div_titre_service {
   padding-top: 3em;
   padding-bottom: 1em;
