@@ -242,6 +242,23 @@
     gap: 5em;
   }
 }
+@media (max-width: 376px) {
+  .section_team {
+    background-color: #F6F9FE;
+    padding-bottom: 1.5em;
+  }
+  .section_team .div_titre_team {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 1em;
+  }
+  .section_team .div_titre_team p {
+    font-size: 0.6em;
+  }
+  .section_team .les4cartes {
+    gap: 1em;
+  }
+}
 .div_titre_footer {
   padding-top: 3em;
   padding-bottom: 1em;
