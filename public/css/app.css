@@ -370,6 +370,21 @@
     border-radius: none;
     margin-left: 13em;
   }
+  .formulaire #btn_footer {
+    font-size: 0.6em;
+    padding: 0;
+  }
+  .div_copy {
+    margin-top: 80em;
+    font-size: 0.5em;
+    height: 3em;
+    margin-right: 1em;
+    gap: 20em;
+  }
+  .div_copy .span {
+    font-size: 0.6em;
+    padding-top: 2em;
+  }
 }
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
