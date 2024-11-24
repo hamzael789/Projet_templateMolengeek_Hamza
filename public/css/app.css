@@ -63,23 +63,24 @@
     font-size: 0.5em;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 376px) {
   .section_header {
-    height: 15em;
+    height: 10em;
+    width: 100%;
   }
   .section_header .background_opacity .div_header {
-    padding-top: 5em;
-    padding-left: 2em;
+    padding-top: 3em;
+    padding-left: 1.5em;
   }
   .section_header .background_opacity .div_header h1, .section_header .background_opacity .div_header .h1 {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   .section_header .background_opacity .div_header p {
     font-weight: normal;
-    font-size: 0.7em;
+    font-size: 0.5em;
   }
   .section_header .background_opacity .div_header .btn_header {
-    font-size: 0.5em;
+    font-size: 0.4em;
   }
 }
 .section_haut_body .div_haut_body {
