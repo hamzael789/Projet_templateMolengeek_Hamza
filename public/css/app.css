@@ -46,10 +46,29 @@
     font-weight: bolder;
   }
   .section_header .background_opacity .div_header h1, .section_header .background_opacity .div_header .h1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   .section_header .background_opacity .div_header p {
     font-weight: normal;
+  }
+  .section_header .background_opacity .div_header .btn_header {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 768px) {
+  .section_header {
+    height: 15em;
+  }
+  .section_header .background_opacity .div_header {
+    padding-top: 5em;
+    padding-left: 2em;
+  }
+  .section_header .background_opacity .div_header h1, .section_header .background_opacity .div_header .h1 {
+    font-size: 0.9em;
+  }
+  .section_header .background_opacity .div_header p {
+    font-weight: normal;
+    font-size: 0.7em;
   }
   .section_header .background_opacity .div_header .btn_header {
     font-size: 0.5em;
